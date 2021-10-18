@@ -1,7 +1,20 @@
 .App {
   text-align: center;
+
+}
+body { 
+  background-image: url(./images/background.png);
+  color: white;
 }
 
+.home { 
+  background-image: url(./images/eat-code-sleep-repeat.jpeg);
+}
+
+.footer { 
+  position: absolute;
+  bottom: 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +49,4 @@
     transform: rotate(360deg);
   }
 }
+

@@ -23,7 +23,7 @@ function Projects(props){
             <div>
                 <h1>{project.name}</h1>
                 <img src={project.image} />
-                <a href={project.git}>
+                <a href={project.git}> <br />
                     <button>Github</button>
                 </a>
                 <a href={project.live}>

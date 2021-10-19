@@ -6,14 +6,20 @@ body {
   background-image: url(./images/background.png);
   color: white;
 }
-
-.home { 
-  background-image: url(./images/eat-code-sleep-repeat.jpeg);
+.esrpic {
+  height: 350px;
+  width: 550px;
+  background-repeat: no-repeat;
+  border: 3px solid aqua;
+  padding: 1%;
+  margin: auto;
 }
+
 
 .footer { 
   position: absolute;
   bottom: 0;
+  height: 2.5rem;
 }
 .App-logo {
   height: 40vmin;

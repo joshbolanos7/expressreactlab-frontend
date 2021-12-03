@@ -4,7 +4,9 @@
 }
 body { 
   background-image: url(./images/background.png);
+  background-size: cover;
   color: white;
+
 }
 .esrpic {
   height: 350px;
@@ -15,11 +17,60 @@ body {
   margin: auto;
 }
 
+.plat-techs { 
+  display:inline-block;
+  position:static;
+  top: 2rem;
+  border: 3px solid red;
+  padding: 3px;
+  margin: 15px;
+}
+.resume { 
+  display: inline-flex;
+  position: grid;
+  border: 3px solid blue;
+  padding: 1%;
+  margin: auto;
 
-.footer { 
-  position: absolute;
+}
+
+.backend-info {
+  padding: 5px;
+  margin-top: 31px;
+  width: 50%;
+  /* margin: auto; */
+  display: inline-block;
+  position: static;
+  border: 3px dotted aqua;
+}
+
+footer { 
+  display:inline-flex;
+  flex-direction: column;
+  align-content: space-between;
   bottom: 0;
-  height: 2.5rem;
+  /* height: 1.5rem; */
+  width: 50%;
+  border: solid 1px aqua;
+  padding: 3px;
+  margin: 6px;
+
+}
+
+a:link {
+  color: greenyellow;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  transform: scale(1.05);
+}
+
+.footer-center{
+  display: inline-block;
 }
 .App-logo {
   height: 40vmin;
@@ -54,5 +105,18 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.projects { 
+  display: inline-flex;
+  flex-direction: column;
+  border: 3px solid greenyellow;
+  margin: 10px;
+  padding: 3px;
+
+}
+
+.react-icons { 
+  size: 2rem;
 }
 
